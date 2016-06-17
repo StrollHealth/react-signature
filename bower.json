@@ -1,0 +1,29 @@
+{
+  "name": "react-signature",
+  "version": "0.0.0",
+  "description": "React Signature",
+  "main": "dist/react-signature.min.js",
+  "homepage": "https://github.com/StrollHealth/react-signature",
+  "authors": [
+    "Quang Tran"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
