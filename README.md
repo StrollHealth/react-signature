@@ -1,6 +1,6 @@
 # React Signature
 
-A signature board component for react. Implemented by referring to [https://github.com/szimek/signature_pad]. Compatible with all modern browsers. In order to make the component work for IE8, include the line below in your html head:
+A signature board component for react. Implemented by referring to https://github.com/szimek/signature_pad. Compatible with all modern browsers. In order to make the component work for IE8, include the line below in your html head:
 '''
 <!--[if lte IE 8]><script type="text/javascript" src="https://cdn.jsdelivr.net/excanvas/r3/excanvas.js"></script><![endif]-->
 '''
