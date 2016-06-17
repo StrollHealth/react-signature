@@ -38,7 +38,7 @@ var ReactSignature = require('react-signature');
 
 ...
 
-var signaturepad = this.refs.signaturepad;
+var signaturepad = this.refs.signatureboard;
 
 /* 
  * Method that returns the signature on canvas in URL form.
