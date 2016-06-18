@@ -31,7 +31,7 @@ npm install react-signature --save
 ## Usage
 To initialize:
 
-```
+```jsx
 var ReactSignature = require('react-signature');
 
 <ReactSignature ref="signatureboard"/>
@@ -62,6 +62,8 @@ signatureboard.fromDataURL(base64String);
 signatureboard.handleClear();
 ```
 ## Properties
+
+React class properties:
 
 width - width of the signature canvas. Default is 450.
 
