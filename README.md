@@ -5,7 +5,7 @@ A signature board component for react. Implemented by referring to https://githu
 
 ## Demo & Examples
 
-Live demo: [github.com/StrollHealth/react-signature](https://github.com/StrollHealth/react-signature)
+![alt text](./img/demo_signature.png "Demo Signature")
 
 To build the examples locally, first clone the repository, then run:
 
@@ -41,10 +41,11 @@ var ReactSignature = require('react-signature');
 var signaturepad = this.refs.signatureboard;
 
 /* 
- * Method that returns the signature on canvas in URL form.
+ * Method that converts the signature image to URL.
+ * Returns the URL.
 */
 
-signatureboard.handleSave();
+signatureboard.toDataURL();
 
 
 /* 
@@ -55,12 +56,16 @@ signatureboard.fromDataURL(base64String);
 
 
 /* 
- * Method to clear the signature board
+ * Method to clear the signature board.
 */
 
 signatureboard.handleClear();
 ```
+## Properties
 
+width - width of the signature canvas. Default is 450.
+
+height - height of the signature canvas. Default is 300.
 
 
 ## Development (`src`, `lib` and the build process)
