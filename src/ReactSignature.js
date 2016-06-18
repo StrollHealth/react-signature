@@ -32,8 +32,8 @@ var ReactSignature = React.createClass({
     this.reset();
   },
 
-  handleSave: function() {
-    return canvas.toDataURL.apply(canvas, arguments).slice(22);
+  toDataURL: function() {
+    return canvas.toDataURL.apply(canvas, arguments);
   },
 
   fromDataURL: function(dataURL) {
