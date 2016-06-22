@@ -6,6 +6,13 @@ A signature board component for react. Implemented by referring to https://githu
 ## Demo & Examples
 
 ![alt text](./img/demo_signature.png "Demo Signature")
+<<<<<<< Updated upstream
+=======
+
+
+Demo Repository: https://github.com/StrollHealth/react-signature
+
+>>>>>>> Stashed changes
 
 To build the examples locally, first clone the repository, then run:
 
