@@ -211,7 +211,7 @@ var ReactSignature = React.createClass({
   },
   render: function() {
     return (
-      <canvas width={this.props.width} height={this.props.heigh} ref="canvas" onMouseDown={this.handleMouseDown} onMouseMove={this.handleMouseMove} onMouseUp={this.handleMouseUp}>
+      <canvas width={this.props.width} height={this.props.height} ref="canvas" onMouseDown={this.handleMouseDown} onMouseMove={this.handleMouseMove} onMouseUp={this.handleMouseUp}>
       </canvas>
     );
   }
