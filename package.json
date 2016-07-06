@@ -1,6 +1,6 @@
 {
   "name": "react-signature",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "React Signature",
   "main": "lib/ReactSignature.js",
   "author": "Quang Tran",

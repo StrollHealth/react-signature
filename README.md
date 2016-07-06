@@ -41,7 +41,7 @@ var ReactSignature = require('react-signature');
 
 ...
 
-var signaturepad = this.refs.signatureboard;
+var signatureboard = this.refs.signatureboard;
 
 /* 
  * Method that converts the signature image to URL.
