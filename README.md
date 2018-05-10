@@ -68,9 +68,27 @@ signatureboard.handleClear();
 
 React class properties:
 
-width - width of the signature canvas. Default is 450.
+<dl>
+	
+<dt>width</dt>
+<dd>(Integer) width of the signature canvas. Default is 450.</dd>
 
-height - height of the signature canvas. Default is 300.
+<dt>height</dt>
+<dd>(Integer) height of the signature canvas. Default is 300.</dd>
+
+<dt>onBegin</dt>
+<dd>(function) Callback when stroke begins.</dd>
+
+<dt>onEnd</dt>
+<dd>(function) Callback when stroke ends.</dd>
+
+<dt>backgrounColor</dt>
+<dd>(string) Set background color</dd>
+
+<dt>penColor</dt>
+<dd>(string) Color used to draw the lines. Can be any color format accepted by <code>context.fillStyle</code>. Defaults to <code>"black"</code>.</dd>
+
+</dl>
 
 
 ## Development (`src`, `lib` and the build process)
