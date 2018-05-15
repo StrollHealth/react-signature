@@ -82,11 +82,20 @@ React class properties:
 <dt>onEnd</dt>
 <dd>(function) Callback when stroke ends.</dd>
 
-<dt>backgrounColor</dt>
+<dt>backgroundColor</dt>
 <dd>(string) Set background color</dd>
 
 <dt>penColor</dt>
 <dd>(string) Color used to draw the lines. Can be any color format accepted by <code>context.fillStyle</code>. Defaults to <code>"black"</code>.</dd>
+
+<dt>throttle</dt>
+<dd>(integer) Draw the next point at most once per every x milliseconds. Set it to 0 to turn off throttling. Defaults to 16.</dd>
+
+<dt>minDistance</dt>
+<dd>(integer) Add the next point only if the previous one is farther than x pixels. Defaults to 5.</dd>
+
+<dt>velocityFilterWeight</dt>
+<dd>(float) Weight used to modify new velocity based on the previous velocity. Defaults to 0.7.</dd>
 
 </dl>
 
